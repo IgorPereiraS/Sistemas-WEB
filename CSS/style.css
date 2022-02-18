@@ -1,10 +1,27 @@
 *{
     margin:0;
     padding: 0;
+    background-color: aquamarine;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.title{
+.header{
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 250px;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: center;
     color: blue;
     font-size: 32pt;
+}
+.main-content{
+    background-color: white;
+    position: absolute;
+    border-color: black;
+    border-width: 100px;
+    /* border-radius: 10px; */
+    width: 500px;
+    height: 1000px;
 }

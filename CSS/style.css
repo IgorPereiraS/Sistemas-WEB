@@ -4,36 +4,37 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-#background{
+.background{
     background-color: rgb(156, 176, 206);
 }
-#links-top{
+.links-top{
     background-color: black;
     height: 30px;
 }
-#instagram{
+.instagram{
     position: relative;
     left: 5px;
     top: 5px;
     width: 80px;
     height: 20px;
 }
-#facebook{
+.facebook{
     position: relative;
     left: 5px;
     top: 5px;
     width: 80px;
     height: 20px;
 }
-#twitter{
+.twitter{
     position: relative;
     left: 5px;
     top: 5px;
     width: 80px;
     height: 20px;
 }
-#header{
+.header{
     position: relative;
+    display: flex;
     width: auto;
     padding: 0;
     margin: 0;
@@ -41,23 +42,37 @@
     background-color: rgb(58, 58, 224);
 
 }
-#header-bubble{
+.header-bubble{
     position: relative;
     top: 10px;
-    left: 5px;
+    left: 50px;
     background-color: white;
     border-radius: 25px;
-    width: 620px;
+    margin-left: 70px;
+    width: 700px;
     height: 280px;
 }
-#header-text{
+.header-text{
     position: relative;
     text-align: center;
-    top: 90px;
+    padding-top: 90px;
     font-size: 72pt;
-
 }
-#nav-menu{
+.logo{
+    position: relative;
+    left: 50px;
+    top:10px;
+    background-color: white;
+    border-radius: 25px;
+    width: 280px;
+    height: 280px;
+}
+.logo-txt{
+    text-align: center;
+    padding-top:50px;
+    font-size: 150px;
+}
+.nav-menu{
     display:flex;
     flex-direction: row;
     background-color: rgb(29, 6, 66);
@@ -66,7 +81,7 @@
     padding-right: 5px;
     padding-top: 4pt;
 }
-#nav-btn{
+.nav-btn{
     flex:1 1 auto;
     width: auto;
     height: 24pt;

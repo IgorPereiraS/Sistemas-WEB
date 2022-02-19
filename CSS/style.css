@@ -5,30 +5,17 @@
     font-family: sans-serif;
 }
 .background{
-    background-color: rgb(156, 176, 206);
+    background-color: rgb(213, 250, 255);
+
 }
-.links-top{
+.lnk-top{
+    display: flex;
     background-color: black;
     height: 30px;
 }
-.instagram{
+.lnk-btn{
     position: relative;
-    left: 5px;
-    top: 5px;
-    width: 80px;
-    height: 20px;
-}
-.facebook{
-    position: relative;
-    left: 5px;
-    top: 5px;
-    width: 80px;
-    height: 20px;
-}
-.twitter{
-    position: relative;
-    left: 5px;
-    top: 5px;
+    margin: 5px 0px 0px 5px;
     width: 80px;
     height: 20px;
 }
@@ -36,11 +23,8 @@
     position: relative;
     display: flex;
     width: auto;
-    padding: 0;
-    margin: 0;
     height: 300px;
     background-color: rgb(58, 58, 224);
-
 }
 .header-bubble{
     position: relative;
@@ -74,15 +58,11 @@
 }
 .nav-menu{
     display:flex;
-    flex-direction: row;
     background-color: rgb(29, 6, 66);
     height: 32pt;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 4pt;
+    padding: 5px 5px 5px 5px;
 }
 .nav-btn{
-    flex:1 1 auto;
-    width: auto;
-    height: 24pt;
+    flex: auto;
+    margin: 0px 5px 0px 0px;
 }
